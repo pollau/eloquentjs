@@ -1,4 +1,3 @@
-
 var SCRIPTS = require("./scripts");
 
 function characterScript(code) {
