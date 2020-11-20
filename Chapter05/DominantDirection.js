@@ -26,6 +26,5 @@ function characterScript(code) {
     return counts;
   }
 
-
   console.log(characterScript(121));
   // → {name: "Latin", …}
