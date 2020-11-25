@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter06/Matrix.js",
+        "program": "${workspaceFolder}/Chapter06/Vector.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
