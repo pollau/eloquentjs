@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter05/DominantDirection.js",
+        "program": "${workspaceFolder}/Chapter06/Matrix.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
