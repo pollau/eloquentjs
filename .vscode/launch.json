@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter06/Vector.js",
+        "program": "${workspaceFolder}/Chapter06/Groups.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
