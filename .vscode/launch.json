@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter06/Groups.js",
+        "program": "${workspaceFolder}/Chapter06/IterableGroup.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"

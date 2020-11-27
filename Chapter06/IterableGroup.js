@@ -25,21 +25,30 @@ class Group {
     }
 }
 
-// let gr = new Group();
-// gr.add(121);
-// gr.add('str');
-// gr.add('str');
-// gr.add('str2');
-// gr.add('1122');
-// gr.add('s477tr');
-// gr.delete('str');
+class IterableGroup {
+    constructor(group) {
+        this.group = group;
+        this.instanceIndex = 0;
+    }
+    next() {
+        if (this.instanceIndex === this.group.instance.length) {
+            return { done: true }
+        }
 
-let group = Group.from([10, 20]);
-console.log(group.has(10));
-// → true
-console.log(group.has(30));
-// → false
-group.add(10);
-group.delete(10);
-console.log(group.has(10));
-// → false
+        let value = this.group.instance[this.instanceIndex];
+        this.instanceIndex++;
+        return { value, done: false };
+    }
+}
+
+
+Group.prototype[Symbol.iterator] = function() {
+    return new IterableGroup(this);
+  };
+
+for (let value of Group.from(["a", "b", "c"])) {
+    console.log(value);
+}
+  // → a
+  // → b
+  // → c
