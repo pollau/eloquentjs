@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter07/Road.js",
+        "program": "${workspaceFolder}/Chapter07/PersistentGroup.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
