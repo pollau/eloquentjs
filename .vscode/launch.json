@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter06/MethodBorrow.js",
+        "program": "${workspaceFolder}/Chapter07/Road.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
