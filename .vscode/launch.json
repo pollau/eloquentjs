@@ -2,7 +2,7 @@
     "configurations": [
     {
         "name": "Launch Program",
-        "program": "${workspaceFolder}/Chapter08/Retry.js",
+        "program": "${workspaceFolder}/Chapter08/LockedBox.js",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
